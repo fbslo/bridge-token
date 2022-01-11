@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "hardhat": "^2.8.2"
+  }
+}
