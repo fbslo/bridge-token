@@ -2,8 +2,12 @@
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
+    "dotenv": "^11.0.0",
     "eth-sig-util": "^2.5.4",
     "hardhat": "^2.8.2",
     "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.0"
   }
 }
