@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "hardhat": "^2.8.2"
+    "chai": "^4.3.4",
+    "eth-sig-util": "^2.5.4",
+    "hardhat": "^2.8.2",
+    "web3": "^1.6.1"
   }
 }

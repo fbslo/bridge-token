@@ -1,6 +1,8 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.11;
 
 import "./Context.sol";
+import "./Roles.sol";
 
 contract MinterRole is Context {
     using Roles for Roles.Role;
@@ -10,7 +12,7 @@ contract MinterRole is Context {
 
     Roles.Role private _minters;
 
-    constructor () internal {
+    constructor () {
         _addMinter(_msgSender());
     }
 
